@@ -1,3 +1,5 @@
+#2025-02-26: HQ read fish heart beat tables and extract bpm
+
 from os import listdir, walk
 import pandas as pd
 from statistics import fmean
@@ -28,3 +30,4 @@ with open(filepath+'fishbpm/fishbpm.csv', 'w', newline='') as csvfile:
     
         writer_object.writerow([a,fishbpm])
         
+       
